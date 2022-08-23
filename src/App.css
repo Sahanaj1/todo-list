@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+#i {
+  font-size: 35px;
+}
+.button-complete {
+  color: #95faa3;
+  margin-right: 10px;
+}

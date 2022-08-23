@@ -1,0 +1,155 @@
+.homepage {
+  /* height: 100vh;
+  weight: 100vw;
+  background: rgb(54, 124, 136);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative; */
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(140deg,#75acd1,#ab8cb8);
+  
+}
+
+.add-edit-input {
+  position: absolute;
+  top: 20px;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  height: 40px;
+  font-size: 25px;
+  padding: 5px 20px;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+.add-confirm-icon {
+  position: absolute;
+  transform: scale(2);
+  top: 27px;
+  right: 465px;
+  cursor: pointer;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+.todo > h2 {
+  width: 500px;
+  background-color: rgb(211, 211, 211);
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+
+.edit-button,
+.delete-button {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: large;
+}
+
+.logout-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 10px;
+  size:large;
+  color: white;
+}
+.logout-text{
+  cursor: pointer;
+  position: absolute;
+  top: 9px;
+  right: 40px;
+  font-size: medium;
+  padding: 20px;
+  color: white;
+}
+@media (max-width:700px){
+.todo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  width: 50%;
+  position: relative;
+}
+.add-edit-input{
+  position: absolute;
+  top: 20px;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  height: 30px;
+  font-size: 15px;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  right: 150px;
+  margin-left: 100px;
+}
+.todo > h2 {
+  width: 200px;
+  background-color: rgb(211, 211, 211);
+  padding: 2px 20px;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+  /* margin-left: 300px; */
+}
+.logout-text{
+  cursor: pointer;
+  position: absolute;
+  top: 9px;
+  right: 50px;
+  font-size: medium;
+  padding: 20px;
+  color: white;
+}
+.add-confirm-icon {
+  position: absolute;
+  transform: scale(1.5);
+  top: 23px;
+  right: 155px;
+  cursor: pointer;
+}
+.edit-button,
+.delete-button {
+  cursor: pointer;
+  margin-left: 0px;
+  font-size: small;
+  size:small;
+  
+}
+.container2{
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  width:100px;
+  margin: 10px;
+}
+}

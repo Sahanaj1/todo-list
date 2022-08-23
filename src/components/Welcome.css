@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa+One&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.welcome{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(140deg,#75acd1,#ab8cb8);
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 15px;
+  justify-content: center;
+  /* position: relative; */
+  align-items: center;
+}
+.container .title ::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background: #ab8cb8;
+}
+.container form .user-details{
+  display: block;
+  flex-wrap: wrap;
+  margin: 20px 0 12px 0 ;
+  justify-content: space-between;
+}
+
+.form .user-details .input-box{
+ margin-bottom: 15px;
+  width: calc(100%/2-20px);
+  justify-content: center;
+  align-items: center;
+}
+
+.form .user-details .input-box input{
+height: 45px;
+width: 100% ;
+outline: none;
+border-radius: 5px;
+border:1px solid #ccc;
+padding-left: 15px;
+font-size: 16px;
+border-bottom-width:2px ;
+transition: all 0.3s ease;
+}
+.form .user-details .input-box  .details{
+font-weight: 500;
+margin-bottom: 5px;
+display:block ;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+border-color: #9b5969;
+}
+
+
+
+.form .button{
+  height:45px;
+  width: 45px 0;
+}
+.form .button button{
+  height: 100%;
+  width:100%;
+  outline:none;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background:linear-gradient(140deg,#75acd1,#ab8cb8);
+} .button button:hover{
+  background:linear-gradient(-80deg,#75acd1,#ab8cb8);
+}
+
+@media (max-width:584px){
+  .container{
+    max-width: 100%;
+  }
+   .user-details .input-box{
+    margin-bottom: 15px;
+     width: 100%;
+   }
+   .container form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+
+   }
+   .user-details::-webkit-scrollbar{
+    width:0;
+   }
+}
+.welcome1{
+  justify-content: center;
+  align-items: center;
+  display: block;
+  
+}
+.input-box1{
+  margin-bottom: 15px;
+  width: calc(100%/2-20px);
+  justify-content: center;
+  align-items: center;
+}
+.input-box1  input{
+  height: 45px;
+width: 100% ;
+outline: none;
+border-radius: 5px;
+border:1px solid #ccc;
+padding-left: 15px;
+font-size: 16px;
+border-bottom-width:2px ;
+transition: all 0.3s ease;
+
+}
+ .input-box1  .details{
+  font-weight: 500;
+  margin-bottom: 5px;
+  display:block ;
+  }
+ .input-box1 input:focus,
+  .input-box1 input:valid{
+  border-color: #9b5969;
+  }
+  
+.input-box2{
+  margin-bottom: 15px;
+ 
+  width: calc(100%/2-20px);
+  justify-content: center;
+  align-items: center;
+}
+.input-box2 input{
+  height: 45px;
+  
+width: 100% ;
+outline: none;
+border-radius: 5px;
+border:1px solid #ccc;
+padding-left: 15px;
+font-size: 16px;
+border-bottom-width:2px ;
+transition: all 0.3s ease;
+}
+
+ .input-box2  .details{
+  font-weight: 500;
+  margin-bottom: 5px;
+  display:block ;
+  }
+ .input-box2 input:focus, 
+ .input-box2 input:valid{
+  border-color: #9b5969;
+  }
+  
+.button1{
+  height:45px;
+  width: 20px 0;
+}
+
+.button1 button{
+  height: 100%;
+  cursor: pointer;
+  width:100%;
+  outline:none;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background:linear-gradient(140deg,#75acd1,#ab8cb8);
+}
+.button1 button:hover{
+  background:linear-gradient(-80deg,#75acd1,#ab8cb8);
+}
+.button2{
+  height:45px;
+  width: 20px 0;
+}
+
+.button2 button{
+  cursor: pointer;
+  height: 100%;
+  width:100%;
+  outline:none;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  margin-top: 15px;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  background:linear-gradient(140deg,#75acd1,#ab8cb8);
+}
+.button2 button:hover{
+  background:linear-gradient(-80deg,#75acd1,#ab8cb8);
+}
+.buttons{
+  padding-top:15px;
+  /* padding: 20px; */
+  margin:8px;
+}
