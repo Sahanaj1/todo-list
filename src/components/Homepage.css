@@ -11,7 +11,7 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background:linear-gradient(140deg,#75acd1,#ab8cb8);
+  background:linear-gradient(140deg,#e8f5fd,#89c4e6);
   
 }
 
@@ -56,7 +56,7 @@
 
 .todo > h2 {
   width: 500px;
-  background-color: rgb(211, 211, 211);
+  background-color: rgb(255, 253, 244);
   padding: 5px 10px;
   border-radius: 7px;
 }
@@ -71,20 +71,21 @@
 .logout-icon {
   cursor: pointer;
   position: absolute;
-  top: 15px;
-  right: 15px;
-  padding: 10px;
-  size:large;
-  color: white;
+  top: 27px;
+  right: 25px;
+  
+  
+  color: rgb(0, 0, 0);
 }
 .logout-text{
   cursor: pointer;
   position: absolute;
   top: 9px;
   right: 40px;
-  font-size: medium;
+  font-size: large;
   padding: 20px;
-  color: white;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
 }
 @media (max-width:700px){
 .todo{

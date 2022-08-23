@@ -8,6 +8,7 @@ import { auth } from "../firebase.js";
 import { useNavigate } from "react-router-dom";
 import "./Welcome.css";
 import TodoSVG from '../assets/todo-svg.svg'
+import PostAddIcon from '@mui/icons-material/PostAdd';
 
 export default function Welcome() {
   const [email, setEmail] = useState("");
@@ -71,8 +72,10 @@ export default function Welcome() {
     <div className="welcome">
        <div className="container">
 
-       <div className="title">Todo-List</div>
-    
+       <div className="title">Todo - List
+       <PostAddIcon className="delete-button"/>
+        </div>
+       
 
      <div className="form">
 

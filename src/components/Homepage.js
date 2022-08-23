@@ -94,7 +94,7 @@ const handleComp=(uid)=>{
       <input
         className="add-edit-input"
         type="text"
-        placeholder="Add todo..."
+        placeholder="Add your todo..."
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
       />

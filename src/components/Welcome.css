@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Changa+One&display=swap");
 *{
   margin: 0;
@@ -10,25 +11,28 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background:linear-gradient(140deg,#75acd1,#ab8cb8);
+  background:linear-gradient(140deg,#e8f5fd,#89c4e6);
 }
 .container{
   max-width: 700px;
   width: 100%;
-  background: #fff;
+  background: linear-gradient(-120deg,#fff8d2,#fdffed);
   /* display: flex; */
   justify-content: center;
   align-items: center;
   padding: 25px 30px;
   border-radius: 5px;
 }
+
 .container .title{
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 500;
   padding-bottom: 15px;
   justify-content: center;
   /* position: relative; */
   align-items: center;
+  font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 .container .title ::before{
   content: '';
@@ -38,6 +42,12 @@
   height: 3px;
   width: 30px;
   background: #ab8cb8;
+}
+.delete-button {
+  margin-left: 0px;
+  font-size: medium;
+  size:medium;
+  
 }
 .container form .user-details{
   display: block;
@@ -58,7 +68,7 @@ height: 45px;
 width: 100% ;
 outline: none;
 border-radius: 5px;
-border:1px solid #ccc;
+border:1px solid rgb(255, 255, 255);
 padding-left: 15px;
 font-size: 16px;
 border-bottom-width:2px ;
@@ -71,7 +81,7 @@ display:block ;
 }
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
-border-color: #9b5969;
+border-color: #d4dfff;
 }
 
 
@@ -84,15 +94,15 @@ border-color: #9b5969;
   height: 100%;
   width:100%;
   outline:none;
-  color:#fff;
+  color:rgb(255, 255, 255);
   font-size: 15px;
   font-weight: 500;
   border: none;
   border-radius: 6px;
   letter-spacing: 1px;
-  background:linear-gradient(140deg,#75acd1,#ab8cb8);
+  background:linear-gradient(140deg,#ffb9ed,#edd2fd);
 } .button button:hover{
-  background:linear-gradient(-80deg,#75acd1,#ab8cb8);
+  background:linear-gradient(-80deg,#e9c1f8,#f7b0fa);
 }
 
 @media (max-width:584px){
@@ -143,7 +153,7 @@ transition: all 0.3s ease;
   }
  .input-box1 input:focus,
   .input-box1 input:valid{
-  border-color: #9b5969;
+  border-color:#eef2ff;
   }
   
 .input-box2{
@@ -173,7 +183,7 @@ transition: all 0.3s ease;
   }
  .input-box2 input:focus, 
  .input-box2 input:valid{
-  border-color: #9b5969;
+  border-color: #d4dfff;
   }
   
 .button1{
@@ -186,16 +196,16 @@ transition: all 0.3s ease;
   cursor: pointer;
   width:100%;
   outline:none;
-  color:#fff;
+  color:black;
   font-size: 15px;
   font-weight: 500;
   border: none;
   border-radius: 6px;
   letter-spacing: 1px;
-  background:linear-gradient(140deg,#75acd1,#ab8cb8);
+  background:linear-gradient(-80deg,#ffd1f1,#f5eaff);
 }
 .button1 button:hover{
-  background:linear-gradient(-80deg,#75acd1,#ab8cb8);
+  background:linear-gradient(-80deg,#ffade6,#f5eaff);
 }
 .button2{
   height:45px;
@@ -207,17 +217,17 @@ transition: all 0.3s ease;
   height: 100%;
   width:100%;
   outline:none;
-  color:#fff;
+  color:black;
   font-size: 15px;
   font-weight: 500;
   border: none;
   margin-top: 15px;
   border-radius: 6px;
   letter-spacing: 1px;
-  background:linear-gradient(140deg,#75acd1,#ab8cb8);
+  background:linear-gradient(-80deg,#fdd4f1,#f5eaff);
 }
 .button2 button:hover{
-  background:linear-gradient(-80deg,#75acd1,#ab8cb8);
+  background:linear-gradient(-80deg,#ffaae5,#f5eaff);
 }
 .buttons{
   padding-top:15px;
